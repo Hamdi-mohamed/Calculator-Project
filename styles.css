@@ -1,0 +1,75 @@
+/* Reset the  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins , sans-serif";
+    box-sizing: border-box;
+}
+/* Create a container for centering content */
+
+.container {
+width: 100%;
+height: 100vh;
+background: rgb(118, 200,200,);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.calculator {
+    background: darkslategray;
+    padding: 20px;
+    border: radius 10px; ;
+}
+
+
+.calculator form input {
+
+    border: 0;
+    outline: 0;
+    width: 60px; /* Set button width */
+    height: 60px; /* Set button height */
+    border-radius: 10px; /* Rounded corners of the buttons */
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent; 
+    font-size: 20px;
+    color: #fff; /* text colour */
+    cursor: pointer; /* change the cursor to pointer on hover*/
+    margin: 10px; /* Add margin between buttons */
+  
+  }
+/* Style display area */
+
+form .display {
+    display:flex;
+    justify-content: flex-end;  /* Align the content to the right  */
+    margin: 20px 0; /* Adds margin above and below the display area */
+  
+  }
+
+form .display input {
+    text-align: right; /* Right- align text within the input field */
+    flex: 1; /* Allows the inpit field to expand to fill available space */
+    font-size: 45px; /*Set font size for the display */
+    box-shadow: none; /*remove shadow */
+  }
+/* style the equal button */
+
+form input.equal {
+    width: 140px;/* set width for the = button  */
+}
+
+  /* style the operaton buttons */
+  
+  form input.operator {
+    color:rgb(6, 25, 68);  /* set color for oprator buttons */
+  
+  }
+
+
+
+
+
+
+
+
